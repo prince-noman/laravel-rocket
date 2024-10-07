@@ -1,0 +1,28 @@
+{
+  "name": "princenoman/laravel-rocket",
+  "description": "A Laravel package to generate multiple models, migrations, controllers, requests, factories, and seeders in one command.",
+  "authors": [
+    {
+      "name": "Prince Noman"
+    }
+  ],
+  "version": "1.0.0",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "PrinceNoman\\LaravelRocket\\": "src/"
+    }
+  },
+  "require": {
+    "php": "^8.0",
+    "laravel/framework": "^9.0 || ^10.0 || ^11.0"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "PrinceNoman\\LaravelRocket\\LaravelRocketServiceProvider"
+      ]
+    }
+  }
+}
