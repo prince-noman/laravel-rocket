@@ -69,6 +69,16 @@ OrderController (as a resource controller)
 InvoiceController (as a resource controller)
 ```
 
+> Creating controller in nested folder will also work as like we do in traditional Laravel app.
+
+```
+php artisan make:controllers Backend/Product Backend/Order Backend/Invoice
+
+php artisan make:controllers Backend/Blog Frontend/Post
+```
+
+Note that `Nested Folder` will work for all of the mentioned resources of this package.
+
 > 3. Create Multiple Models in one command:
 
 ```bash
